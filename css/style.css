@@ -58,8 +58,8 @@ h3 {
 }
 #github {
     border: 0px;
-    height: 142px;
-    width: 240px;
+    height: 124px;
+    width: 100%;
     overflow: hidden;
     align-content: center;
 }
