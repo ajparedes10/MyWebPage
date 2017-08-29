@@ -1,34 +1,38 @@
+body {
+    background-color: #f5f6f8 !important;
+}
 .container {
-
+  background-color: #ffffff;
+  border-style: outset;
+}
+div.jumbotron {
+  background-color: rgb(109, 85, 127);
+    
 }
 #myName {
-  color: rgb(86, 176, 211);
-    color: rgba(86, 176, 211, 0,68);
-  text-shadow: 2px 2px 4px #ffffff;
+  color: #ffffff;
+  color: rgba(255, 255, 255, 0.68);
+  text-shadow: 2px 2px 4px #f5f6f8;
 	font-family: Audiowide, cursive;
   font-size:200%;
   text-align: center;
   padding: 1em;
 }
 #bienv{
-  color: rgb(8, 13, 111);
-	color: rgba(8, 13, 111, 0,68);
+  color: rgb(245, 246, 248);
+	color: rgb(245, 246, 248, 0.68);
 	font-family: ABeeZee, sans-serif;
-  text-shadow: 2px 2px 3px rgb(86, 176, 211);  
+  text-shadow: 2px 2px 3px rgb(176, 144, 199);  
 }
-p {
-  font-family: Courgette;
+p, h4 {
+  font-family: Ubuntu;
+  font-size: 1.15em;
+  padding: 1em;
 }
-div.jumbotron {
-  background-image: url("./img/back.jpg");
-    
-}
-footer {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: left;
+h3 {
+  color: rgb(109, 85, 127) !important;
+  font-family: ABeeZee, sans-serif !important;
+  text-align: center;
 }
 .twitter-timeline {
     max-height: 500px;
@@ -46,15 +50,20 @@ img {
     max-height: 300px;
     max-width: 100%;
     height: auto;
+    position: relative;
 }
 img.circulo {
     border-radius: 50%;
+    float: left;
+    margin: 2em;
+}
+#es, #en, #pt{
+  max-height: 150px;
 }
 .galeria {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
-    /* height: 300px; */
     padding: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -64,4 +73,42 @@ img.circulo {
 .item{
     grid-column: span 1;
     grid-row: span 1;
+}
+footer {
+    padding: 1em;
+    color: white;
+    background-color: rgb(109, 85, 127);
+    clear: left;
+    text-align: center;
+}
+.col-md-8 {
+  border-right: 1px solid #f5f6f8;
+}
+.avatar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* grafico */
+.grafica {
+  margin: auto;
+  text-align: center;
+}
+
+#c {
+  margin: auto;
+}
+
+.headerGraph {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  height: 25px;
+}
+
+.pentagon {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  padding: 3px 3px 28px 3px;
+  display:inline-block;
 }
