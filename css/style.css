@@ -142,4 +142,32 @@ footer {
     background-color: cornsilk;
     padding: inherit;
 }
-
+/* foto */
+#eco2 {
+    width: 300px;
+}
+.photo {
+    width: 80%;
+    float: left;
+    background: #374752;
+    box-shadow: inset 0px 0px 50px rgba(255, 255, 255, 0.1),
+    0px 5px 10px rgba(255, 255, 255, 0.25);
+    border-radius: 3px;
+    padding: 30px 30px 30px 30px;
+    transition: all 100ms ease-out;
+    transform: translateZ(0);
+    margin: 30px;
+}
+.eco {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+figcaption {
+    margin: 10px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    text-align:center;
+    line-height: 1;
+    color: white;
+}
