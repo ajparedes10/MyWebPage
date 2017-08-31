@@ -1,3 +1,5 @@
+/*David Cubillos: Parece que la siguiente linea la pusiste para seguir la ejecución de tu código, de ser así recomiendo retirar o comentarla 
+al salir a live*/
 console.log("si entra");
 var skills = [
     {"headerGraph" : "EXPERIENCIA",
